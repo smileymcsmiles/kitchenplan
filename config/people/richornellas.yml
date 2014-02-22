@@ -29,9 +29,9 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - roderik
+            - richornellas
         kdeploy:
-            hostname: dev
+            hostname: Richo-MBP
         vim:
             bundle:
                 - sleuth: git://github.com/tpope/vim-sleuth.git
@@ -41,28 +41,26 @@ attributes:
                 - syntastic: git://github.com/scrooloose/syntastic.git
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
     git:
-        name: Roderik van der Veer
-        email: roderik.van.der.veer@kunstmaan.be
+        name: Rich Ornellas
+        email: rich.ornellas@icloud.com
     osxdefaults:
-        computername: Mir
+        computername: RichO-MBP
     authorization:
         sudo:
             users:
-                - roderik
+                - richornellas
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
         cask_apps:
             - onepassword
             - dropbox
-            - evernote
             - istat-menus
             - kaleidoscope
             - alfred
             - totalfinder
             - spotify
             - bartender
-            - vmware-fusion
             - virtualbox
             - vagrant
             - hazel
